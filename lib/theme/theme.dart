@@ -27,7 +27,12 @@ final darkTheme = ThemeData(
       // ignore: deprecated_member_use
       color: Colors.white.withOpacity(0.6),
       fontWeight: FontWeight.w700,
-      fontSize: 17,
+      fontSize: 18,
+    ),
+    headlineMedium: TextStyle(
+      color: Colors.white,
+      fontWeight: FontWeight.w400,
+      fontSize: 30,
     ),
   ),
 );
