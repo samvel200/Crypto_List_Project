@@ -2,7 +2,7 @@ import 'package:crypto_project/repositories/crypto_coins/abstarct_coins_reposito
 import 'package:crypto_project/repositories/crypto_coins/models/crypto_coin.dart';
 import 'package:dio/dio.dart';
 
-class CryptoCoinsRepository implements AbstarctCoinsRepository {
+class CryptoCoinsRepository implements AbstractCoinsRepository {
   CryptoCoinsRepository({required this.dio});
   final Dio dio;
   @override
