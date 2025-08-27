@@ -4,8 +4,13 @@ import 'package:crypto_project/repositories/crypto_coins/crypto_coins_repository
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
+import 'package:talker_flutter/talker_flutter.dart';
 
 void main() {
+  final talker = TalkerFlutter.init();
+  GetIt.I.registerSingleton(talker);
+  GetIt.I<Talker>().debug('Talker Started');
+
   GetIt.I.registerLazySingleton<AbstractCoinsRepository>(
     () => CryptoCoinsRepository(dio: Dio()),
   );

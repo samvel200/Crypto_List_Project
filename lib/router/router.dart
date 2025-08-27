@@ -3,5 +3,5 @@ import 'package:crypto_project/features/crypto_list/view/crypto_list_screen.dart
 
 final routes = {
   '/': (context) => const CryptoListScreen(),
-        '/coin': (context) => const CriptoCoinScreen()
+  '/coin': (context) => const CriptoCoinScreen(),
 };
