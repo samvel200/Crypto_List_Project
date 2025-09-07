@@ -13,7 +13,7 @@ class BaseCard extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
-        color: const Color.fromARGB(255, 21, 21, 21),
+        color: const Color.fromARGB(255, 38, 38, 39),
       ),
       child: child,
     );
